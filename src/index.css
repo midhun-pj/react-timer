@@ -43,6 +43,8 @@ body {
 header {
   display: flex;
   justify-content: center;
+  align-items: center;
+  border-bottom: 1px dotted grey;
 }
 
 ul {
@@ -53,6 +55,46 @@ ul {
   background-color: green;
   box-shadow: none;
   color: white;
-  height: 30px;
-  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 7.5px;
+}
+
+.secondary-button {
+  border: 1px solid green;
+  color: #242424;
+  border-radius: 5px;
+  padding: 7.5px;
+  background-color: white;
+}
+main {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+
+#add-timer {
+  background-color: cadetblue;
+  padding: 25px 50px;
+  margin: 0 auto;
+}
+
+#add-timer p {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 0 20px;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  margin: 0;
+  padding: 0 7px;
+  background-color: white;
+  box-shadow: 1px 1px 13px 1px #beedbe;
 }

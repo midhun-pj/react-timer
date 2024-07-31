@@ -24,7 +24,7 @@ const AddTimer = () => {
         <Input type="text" label="Name" id="name" />
         <Input type="number" label="Duration" id="duration" />
         <p>
-            <Button>Add Timer</Button>
+            <Button className='secondary-button'>Add Timer</Button>
         </p>
     </Form>
   )
