@@ -9,3 +9,8 @@ header h1 {
   padding: 0;
   margin-right: 25px;
 }
+
+progress[value] {
+  width: 250px;
+  height: 20px;
+}

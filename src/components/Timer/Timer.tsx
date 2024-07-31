@@ -43,9 +43,7 @@ const Timer: FC<TimerProps> = ({ name, duration }) => {
   return (
     <Container as='article'>
       <h2>{name}</h2>
-      <p>
-        <progress max={duration * 1000} value={remainingTime}></progress>
-      </p>
+      <progress max={duration * 1000} value={remainingTime}></progress>
       <p>{formattedTime}</p>
     </Container>
   )

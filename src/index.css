@@ -95,6 +95,5 @@ ul {
 ul li {
   margin: 0;
   padding: 0 7px;
-  background-color: white;
-  box-shadow: 1px 1px 13px 1px #beedbe;
+  border: 1px solid #cacaca;
 }
